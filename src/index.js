@@ -21,3 +21,13 @@ function triplePlus(value) {
   return newValue;
 }
 console.log(triplePlus(100));
+
+// Return values function
+
+function favNum(Mynum) {
+  let newNum = Mynum + 100;
+  return newNum;
+}
+
+let result = favNum(100);
+console.log(result);
